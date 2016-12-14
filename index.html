@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>CG561 - Frogger Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div id="game" style="background-color: #000000; overflow:hidden">
+    <button onclick="changeCamera();" class="cameraview"> Change Camera View </button>
+</div>
+
+<div id="score">0</div>
+<div id="lives"></div>
+
+<div id="reset"></div>
+<!--- If game is slow, set "antialias" to false in JS -->
+<script src='js/three.min.js'></script>
+<script src='js/OrbitControls.js'></script>
+<script src="http://threejs.org/examples/js/loaders/OBJLoader.js"></script>
+<script src="http://threejs.org/examples/js/loaders/MTLLoader.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
