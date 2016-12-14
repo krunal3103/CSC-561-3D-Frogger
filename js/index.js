@@ -413,6 +413,7 @@ function logCollision() {
                     frog.position.x = logs[l].position.x - .5;
                 }
                 if (frog.position.x > 10 || frog.position.x < -10) {
+                    drown_audio.play();
                     gameOver();
                 }
             }
